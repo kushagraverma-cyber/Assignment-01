@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TuteDude HTML Learning Demo Page">
+    <title>TuteDude - HTML Learning Demo</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to <mark>TuteDude</mark> HTML Learning</h1>
+
+    <p>
+        Learn <strong>HTML and Web Development</strong> through
+        <em>practical learning, projects, and hands-on practice.</em>
+    </p>
+
+    <nav aria-label="Main navigation">
+        <a href="#about">About TD</a> |
+        <a href="#menu">Our Menu</a> |
+        <a href="#trivia">Taco Trivia</a> |
+        <a href="#extras">Extras</a> |
+        <a href="#feedback">Feedback Form</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <figure>
+        <img src="images/tutedude.svg" alt="TuteDude HTML Learning" width="700">
+        <figcaption>TuteDude and a Drink - HTML Learning Demo</figcaption>
+    </figure>
+</header>
+
+<hr>
+
+<main>
+
+    <section id="about">
+        <h2>About TD</h2>
+
+        <article>
+            <p>
+                <strong>TuteDude</strong> is a fictional learning platform created
+                for practicing HTML. The platform was founded in
+                <time datetime="2021">2021</time>.
+            </p>
+
+            <p>
+                <abbr title="TuteDude">TD</abbr> focuses on practical learning,
+                mentorship, internships, and project-based development.
+            </p>
+
+            <blockquote>
+                "Level up your career with expert mentorship and practical learning."
+                <cite>— TuteDude</cite>
+            </blockquote>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <table border="1" cellpadding="8">
+            <caption><strong>TuteDude Complete Taco Menu</strong></caption>
+
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Small Portion</th>
+                    <th>Large Portion</th>
+                    <th>Nutrition Details</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Tacos</td>
+                    <td>Classic Taco</td>
+                    <td>₹80</td>
+                    <td>₹140</td>
+                    <td>
+                        <table border="1" cellpadding="4">
+                            <tr>
+                                <th>Calories</th>
+                                <th>Protein</th>
+                            </tr>
+                            <tr>
+                                <td>250 kcal</td>
+                                <td>10 g</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Tacos</td>
+                    <td>Cheese Taco</td>
+                    <td>₹100</td>
+                    <td>₹170</td>
+                    <td>
+                        <table border="1" cellpadding="4">
+                            <tr>
+                                <th>Calories</th>
+                                <th>Protein</th>
+                            </tr>
+                            <tr>
+                                <td>320 kcal</td>
+                                <td>12 g</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Drinks</td>
+                    <td>Fresh Lime</td>
+                    <td>₹50</td>
+                    <td>₹80</td>
+                    <td>
+                        <table border="1" cellpadding="4">
+                            <tr>
+                                <th>Calories</th>
+                                <th>Sugar</th>
+                            </tr>
+                            <tr>
+                                <td>70 kcal</td>
+                                <td>12 g</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="2">Menu Summary</th>
+                    <th colspan="3">Fresh • Simple • Practical</th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="trivia">
+        <h2>Taco Trivia</h2>
+
+        <aside>
+            <details>
+                <summary>Did you know?</summary>
+                <p>
+                    The taco is a popular food enjoyed in many different styles.
+                    This section demonstrates the HTML details and summary elements.
+                </p>
+            </details>
+
+            <details>
+                <summary>HTML Trivia</summary>
+                <p>
+                    Semantic HTML helps describe the meaning and structure of
+                    different parts of a webpage.
+                </p>
+            </details>
+        </aside>
+    </section>
+
+    <hr>
+
+    <section id="extras">
+        <h2>Extras</h2>
+
+        <h3>Audio Example</h3>
+        <audio controls>
+            <source src="audio/learning-tone.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Example</h3>
+        <video controls width="600" poster="images/tutedude.svg">
+            <source src="video/tutedude-demo.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <p>
+            <small>
+                Video note: replace <code>video/tutedude-demo.mp4</code> with any
+                short MP4 demo to make the local video playable.
+            </small>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+
+        <form action="#" method="post" onsubmit="alert('Thank you for your feedback!'); return false;">
+            <fieldset>
+                <legend>Share Your Feedback</legend>
+
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="course">Course:</label><br>
+                    <select id="course" name="course">
+                        <option value="html">HTML Learning</option>
+                        <option value="css">CSS Learning</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="rating">Rating:</label><br>
+                    <select id="rating" name="rating">
+                        <option value="5">Excellent</option>
+                        <option value="4">Very Good</option>
+                        <option value="3">Good</option>
+                        <option value="2">Average</option>
+                        <option value="1">Needs Improvement</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Your Feedback:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="50"
+                              placeholder="Write your feedback here..." required></textarea>
+                </p>
+
+                <button type="submit">Submit Feedback</button>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+<hr>
+
+<footer id="contact">
+    <h2>Contact</h2>
+
+    <address>
+        TuteDude Learning Platform<br>
+        Email: hello@tutedude.example<br>
+        Phone: +91 90000 00000
+    </address>
+
+    <p>
+        Copyright &copy;
+        <time datetime="2026">2026</time>
+        TuteDude. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>

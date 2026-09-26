@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" fill="#f7efe6"/>
+<rect x="55" y="55" width="790" height="310" rx="28" fill="#fff"/>
+<circle cx="185" cy="205" r="105" fill="#ead7ff"/>
+<path d="M125 260 Q185 130 245 260" fill="none" stroke="#6b3fa0" stroke-width="18"/>
+<path d="M145 170 Q185 135 225 170" fill="none" stroke="#6b3fa0" stroke-width="12"/>
+<text x="310" y="185" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#663399">TuteDude</text>
+<text x="315" y="245" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#e58b20">HTML LEARNING</text>
+<text x="315" y="295" font-family="Arial, sans-serif" font-size="22" fill="#333">Learn • Build • Practice • Grow</text>
+</svg>
